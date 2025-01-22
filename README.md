@@ -1,5 +1,21 @@
 # rain-prediction
+This project predicts rainfall using machine learning models trained on weather data from the Australian Bureau of Meteorology. The pipeline includes preprocessing, feature selection, and model training.
 
-Project to explore different machine learning algorithms and data analysis techniques using Australian Rain Weather Data.
+Features
+Models trained: Logistic Regression, Decision Trees, SVM, KNN.
+Achieved 85% validation accuracy.
+Includes a comparison of model performance.
 
-Based on a lab from Coursera's Machine Learning with Python course. 
+Tech Stack
+Python
+Scikit-learn
+Pandas
+Matplotlib
+
+Results
+Best Model: Decision Trees.
+Accuracy: 85% on validation data.
+
+Future Improvements
+Use deep learning models like LSTMs for time-series analysis.
+Integrate real-time weather data for live predictions.
